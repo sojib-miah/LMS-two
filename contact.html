@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education-Website</title>
+
+    <!-- font awesome link here  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+    <!-- favaicon link here  -->
+    <link rel="shortcut icon" href="./images/favicon-one.png" type="image/x-icon">
+
+    <!-- custon css link here  -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/contact.css">
+
+    <style>
+        body {
+            background-image: url(./images/bg-texture.png);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container nav_container">
+            <div class="logo">
+                <a href="./index.html"><img src="./images/sty3.png" alt="logo"></a>
+            </div>
+            <div class="navigation">
+                <ul class="nav_menu">
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="./about.html">about</a></li>
+                    <li><a href="./courses.html">courses</a></li>
+                    <li><a href="./contact.html" class="active">contact</a></li>
+                </ul>
+                <i class="fa-solid fa-bars fa-2x" id="open_btn"></i>
+                <i class="fa-solid fa-times fa-2x" id="close_btn"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- nav bar part ends here  -->
+
+    <!-- contact section start here  -->
+    <section class="contact">
+        <div class="container contact_container">
+            <aside class="contact_aside">
+                <div class="aside_img">
+                    <img src="./images/contact.svg">
+                </div>
+                <h2>contact us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae asperiores saepe nostrum eligendi earum sunt.</p>
+                <ul class="contact_details">
+                    <li><i class="fa-solid fa-phone-alt"></i><h5>+8801571-275348</h5></li>
+                    <li><i class="fa-solid fa-message"></i><h5>sojibmia24@gmail.com</h5></li>
+                    <li><i class="fa-solid fa-location-dot"></i><h5>dhaka, bangladesh</h5></li>
+                </ul>                
+                <ul class="contact_social">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </aside>
+
+            <form action="https://formspree.io/f/xnqkppnz" method="POST" class="contact_form">
+                <div class="form_name">
+                    <input type="text" name="First Name" placeholder="First Name" required>
+                    <input type="text" name="Last Name" placeholder="Last Name" required>
+                </div>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <textarea name="message" rows="7" placeholder="Your Message Here....." required></textarea>
+                <button type="submit" class="btn btn_primary">send message</button>
+            </form>
+        </div>
+    </section>
+    <!-- contact section ends here  -->
+
+    <!-- footer part start here  -->
+    <footer>
+        <div class="container footer_container">
+            <div class="footer_1">
+                <div class="footer_logo">
+                    <a href="./index.html"><img src="./images/sty3.png"></a>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, autem.</p>
+            </div>
+            
+            <div class="footer_2">
+                <h4>permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="./about.html">about</a></li>
+                    <li><a href="./courses.html">courses</a></li>
+                    <li><a href="./contact.html">contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_3">
+                <h4>privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">terms and conditions</a></li>
+                    <li><a href="#">refound policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_4">
+                <h4>contact us</h4>
+                <div>
+                    <p>+8801571-275348</p>
+                    <p>sojibmia24.bd@gmail.com</p>
+                </div>
+                <ul class="footer_social">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <small>copyright &copy; MD. sijib mia | frontEnd developer</small>
+        </div>
+    </footer>
+    <!-- footer part ends here  -->
+
+    <!-- custom js link here  -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
